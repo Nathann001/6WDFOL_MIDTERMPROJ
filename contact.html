@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/NTHN.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/NTHN.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/NTHN.png"/>
+    <link rel="icon" sizes="192x192" href="images/NTHN.png"/>
+</head>
+<body>
+    <!--Mobile View-->
+    <nav class = "mobile-nav">
+        <div id = "menu-links">
+            <a href = "index.html">Home</a>
+            <a href = "about.html">About</a>
+            <a href = "projects.html">Projects</a>
+            <a href = "contact.html">Contact</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+    <header id = "ffc-logo">
+        <a href="index.html">
+            <img src="images/NTHN.png" alt="NTHN logo" />
+        </a>
+    </header>
+
+    <!--Tablet, Desktop Nav-->
+    <nav class = "tablet-desktop">
+        <ul>
+            <li><a href="index.html"> Home </a> </li>
+            <li><a href="about.html"> About</a> </li>
+            <li><a href="projects.html">Projects</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+    </nav>
+
+    
+        <main>
+            <div class="contact">
+                <div class="cinfo">
+                    <h1>Get in Touch!</h1>
+                    <p>Email: <a href="mailto:nathanielsales457@gmail.com">nathanielsales457@gmail.com</a></p>
+                    <div class="socials">
+                        <a href="#">Instagram</a>
+                        <a href="https://github.com/Nathann001">GitHub</a>
+                        <a href="https://www.facebook.com/nathaniel.sales.965">Facebook</a>
+                    </div>
+                </div>
+        
+                <div class="cform">
+                    <form action="#" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+        
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2025. All rights reserved. Created by Nathaniel Sales</p>
+            <p><a href="mailto:nathanielsales457@gmail.com">nathanielsales457@gmail.com</a></p>
+        </footer>
+    </div>
+    <script src = "scripts/script.js"></script>
+</body>
+</html>
